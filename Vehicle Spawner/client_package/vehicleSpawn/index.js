@@ -1,4 +1,4 @@
-import UIMenu from './modules/menu';
+import UIMenu from '../menu';
 
 function FindVeh(name) {
     let menu = UIMenu.Menu.Create("Spawner", "Vehicle Find");
