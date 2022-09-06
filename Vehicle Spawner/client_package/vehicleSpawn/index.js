@@ -44,7 +44,7 @@ function MenuSpawnerVeh() {
             FindVeh(name);
             return false;
         }
-        mp.events.callRemote("server:vehicleSpawn", item.list[i])
+        mp.events.callRemote("server:vehicleSpawn", item.list[i].toString())
     });
 }
 
