@@ -33,7 +33,7 @@ function MenuSpawnerVeh() {
     }
 
     let closeItem = UIMenu.Menu.AddMenuItem("~r~Закрыть");
-    menu.ItemSelect.on(async item => {
+    menu.ItemSelect.on(async (item, i) => {
         UIMenu.Menu.HideMenu();
         if (item == findveh) {
             let name = methods.parseInt(await UIMenu.Menu.GetUserInput("Название", "", 15));
@@ -42,8 +42,9 @@ function MenuSpawnerVeh() {
                 return false;
             }
             FindVeh(name);
-
+            return false;
         }
+        mp.events.callRemote("server:vehicleSpawn", item.list[i])
     });
 }
 
