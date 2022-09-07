@@ -91,42 +91,42 @@ vehicles.cat = {
     }, {
         name: "terbyte"
     }],
-    Compacts: [{
+    "Compacts": [{
         name: "weevil"
     }, {
         name: "brioso2"
     }, {
         name: "dilettante"
     }],
-    Coupes: [{
+    "Coupes": [{
         name: "felon2"
     }, {
         name: "jackal"
     }, {
         name: "oracle"
     }],
-    Cycles: [{
+    "Cycles": [{
         name: "bmx"
     }, {
         name: "fixter"
     }, {
         name: "scorcher"
     }],
-    Emergency: [{
+    "Emergency": [{
         name: "sheriff"
     }, {
         name: "riot"
     }, {
         name: "predator"
     }],
-    Helicopters: [{
+    "Helicopters": [{
         name: "annihilator2"
     }, {
         name: "volatus"
     }, {
         name: "valkyrie2"
     }],
-    Industrial: [{
+    "Industrial": [{
         name: "handler"
     }, {
         name: "rubble"
